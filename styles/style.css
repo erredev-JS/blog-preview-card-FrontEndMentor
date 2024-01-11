@@ -14,10 +14,13 @@
 }
 body{
     background-color: var(--main-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card{
     width: 50%;
-    margin: 10% auto;
     border: 1px solid var(--Black);
     background-color: var(--White);
     padding: 20px;
@@ -81,4 +84,8 @@ body{
     padding: 20px 10px;
     width: 80%;
     font-weight: bold;
+}
+.attribution{
+    position: absolute;
+    bottom: 10px;
 }
